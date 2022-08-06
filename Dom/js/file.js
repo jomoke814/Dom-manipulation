@@ -19,27 +19,27 @@ container.appendChild(h3);
 container.appendChild(div);
 
 //event onclick from a button
-// const btn = document.querySelector('#btn')
-// btn.onclick = () => alert('Hello from Javascript file')
-// btn.onclick = alertFunction;
-// btn.addEventListener('click', function (e) {
-//     console.log(e.target)
-// })
+const btn = document.querySelector('#btn')
+btn.onclick = () => alert('Hello from Javascript file')
+btn.onclick = alertFunction;
+btn.addEventListener('click', function (e) {
+    console.log(e.target)
+})
 
 //adding eventlistener
-// const btn2 = document.querySelector('#btn2')
-// btn2.addEventListener('click', () => {
-//     alert('Hello...We have Added an eventListener');
-// })
-// btn2.addEventListener('click', alertFunction);
-// btn2.addEventListener('click', function(e){
-//     e.target.style.background = 'Purple';
-// })
+const btn2 = document.querySelector('#btn2')
+btn2.addEventListener('click', () => {
+    alert('Hello...We have Added an eventListener');
+})
+btn2.addEventListener('click', alertFunction);
+btn2.addEventListener('click', function(e){
+    e.target.style.background = 'Purple';
+})
 
 // adding a named function for eventlistener
-// function alertFunction() {
-//     alert('Yay! Baby like that!')
-// }
+function alertFunction() {
+    alert('Yay! Baby like that!')
+}
 
 //button in a node list acting like an array
 const buttons = document.querySelectorAll('button')

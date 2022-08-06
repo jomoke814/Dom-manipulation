@@ -14,5 +14,4 @@ a paragraph that says “ME TOO!”
 
 Hint for this one: after creating the div with createElement, append the h1 and paragraph to it before adding it to the container.
 
-It also cover a little about event listeners...the code will be commented since you can't have more than 1 onclick
-property.
+It also cover a little about event listeners...NB:you can't have more than 1 onclick property.
