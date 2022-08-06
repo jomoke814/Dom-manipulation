@@ -3,16 +3,16 @@
 Simple Exercise of Dom manipulation in Odin Project.
 The exercise requires you to do this steps:
 
-a <p> with red text that says “Hey I’m red!”
+a paragraph with red text that says “Hey I’m red!”
 
-an <h3> with blue text that says “I’m a blue h3!”
+an h3 with blue text that says “I’m a blue h3!”
 
-a <div> with a black border and pink background color with the following elements inside of it:
+a div with a black border and pink background color with the following elements inside of it:
 
-another <h1> that says “I’m in a div”
-a <p> that says “ME TOO!”
+another h1 that says “I’m in a div”
+a paragraph that says “ME TOO!”
 
-Hint for this one: after creating the <div> with createElement, append the <h1> and <p> to it before adding it to the container.
+Hint for this one: after creating the div with createElement, append the h1 and paragraph to it before adding it to the container.
 
-It also cover a little about event listeners...which of the code will be commented since you can't have more than 1 onclick
+It also cover a little about event listeners...the code will be commented since you can't have more than 1 onclick
 property.
